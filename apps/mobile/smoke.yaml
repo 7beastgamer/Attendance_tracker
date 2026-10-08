@@ -1,0 +1,15 @@
+appId: com.attendancetracker
+---
+- launchApp
+- assertVisible: "Sign in with Google"
+- tapOn: "Sign in with Google"
+- assertVisible: "Your Courses"
+- tapOn: "+ Add"
+- assertVisible: "New Course"
+- tapOn: "+"
+- tapOn: "-"
+- tapOn: "Tasks"
+- assertVisible: "Agenda"
+- tapOn: "+"
+- tapOn: "○ New Task"
+- assertVisible: "✓ New Task"
